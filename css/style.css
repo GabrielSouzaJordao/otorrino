@@ -429,9 +429,17 @@ ul {
 }
 
 .carousel .card {
-  flex: 0 0 300px;
-  width: 300px;
-  min-height: 240px;
+  flex: 0 0 340px;
+  width: 340px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel .card__title {
+  font-size: 15px;
+  line-height: 1.5;
+  flex: 1;
 }
 
 .carousel .card:hover {
@@ -931,8 +939,8 @@ ul {
 /* Responsive */
 @media (max-width: 1024px) {
   .carousel .card {
-    flex: 0 0 280px;
-    width: 280px;
+    flex: 0 0 300px;
+    width: 300px;
   }
 
   .hero__inner {
@@ -1049,8 +1057,8 @@ ul {
   }
 
   .carousel .card {
-    flex: 0 0 260px;
-    width: 260px;
+    flex: 0 0 280px;
+    width: 280px;
   }
 
   .benefits-grid {
